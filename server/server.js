@@ -8,9 +8,9 @@ app.use(cors());
 // Add your keys
 const keys = {
   //https://developers.google.com/places/web-service/intro
-  googleMaps: "AIzaSyC6FChggqB6PEmOMe729NcCcfsi9iRRIhY",
+  googleMaps: "",
   //https://darksky.net/dev
-  darkSky: "28297f249ff53ea4be4c73cdce9b4398"
+  darkSky: ""
 };
 
 const googleMapsClient = require("@google/maps").createClient({
